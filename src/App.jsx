@@ -10,10 +10,6 @@ const App = () => {
     setSelectedPattern(patternToHandle);
   };
 
-  const tablo = () => {
-    return selectedPattern.map(el => <Bulbs pattern={el}  />)
-  }
-
   console.log(selectedPattern)
   return (
     <>
